@@ -3,5 +3,7 @@
 *.png
 *.jpg
 *.jpeg
+!stack-diagram.png
 GEMINI.md
 SKILL.md
+.vercel
