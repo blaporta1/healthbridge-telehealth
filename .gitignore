@@ -4,6 +4,8 @@
 *.jpg
 *.jpeg
 !stack-diagram.png
+!assets/leaders/*.jpg
 GEMINI.md
 SKILL.md
 .vercel
+screencapture-*.pdf
