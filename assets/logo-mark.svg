@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Healthbridge Tech">
+  <g fill="none" stroke="#FF7A3D" stroke-width="6" stroke-linejoin="round">
+    <g id="hb-half">
+      <path d="M21.6 50.2 L21.6 27 A9.9 9.9 0 0 1 41.4 27 L41.4 40"/>
+      <path d="M59.2 29 L59.2 27.1 A9.9 9.9 0 0 1 79.1 27.1 L79.1 40"/>
+      <path d="M38.4 40 L90.5 40"/>
+      <circle cx="94.3" cy="40" r="2.5" stroke-width="2.4"/>
+    </g>
+    <use href="#hb-half" transform="rotate(180 50 50)"/>
+  </g>
+</svg>
