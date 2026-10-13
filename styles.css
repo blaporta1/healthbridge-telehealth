@@ -1,6 +1,6 @@
 /* ============================================================
    HEALTHBRIDGE TECH — styles.css
-   Brand: #2665FB blue · #FF7A3D orange · Baloo 2 wordmark
+   Brand: #2665FB blue · #FF7A3D orange · Hanken Grotesk wordmark
    ============================================================ */
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -85,11 +85,12 @@ a:focus-visible{outline:2px solid #2665FB;outline-offset:2px;border-radius:2px}
 
 /* ---- Logo ---------------------------------------------- */
 .logo{display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0}
-.logo__mark{display:flex;align-items:center}
-.logo__text{font-family:'Baloo 2',cursive;font-weight:800;font-size:1.125rem;color:#1C1C1A;letter-spacing:-.02em;line-height:1}
+.logo__wordmark{display:inline-flex;flex-direction:column;align-items:center;gap:3px}
+.logo__arc{display:block;width:68%;height:.5em;font-size:1.75rem}
+.logo__text{font-family:'Hanken Grotesk',sans-serif;font-weight:800;font-size:1.75rem;color:#1B2340;letter-spacing:-.045em;line-height:1}
 .logo__text em{font-style:normal;color:var(--blue)}
 .logo--white .logo__text{color:#fff}
-.logo--white .logo__text em{color:#FF7A3D}
+.logo--white .logo__text em{color:#4D86FF}
 
 /* ---- Nav ----------------------------------------------- */
 .nav__list{display:flex;align-items:center;gap:4px;list-style:none}
